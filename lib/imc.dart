@@ -14,6 +14,7 @@ class Pessoa {
 
 Pessoa({
   required this.nome, required this.altura, required this.peso,});
+  
 double calcImc(){
 return peso / altura * altura;
 }

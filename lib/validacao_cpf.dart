@@ -23,7 +23,6 @@ if (cpf.length != 11) {
   print('CPF inválido! O CPF não deve ter números repetidos.');
   return;
 }
-
   
   int sum = 0;
   int multiplier = 10; //começa em 10 e vai até 2
